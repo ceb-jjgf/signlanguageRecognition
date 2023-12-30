@@ -10,7 +10,7 @@ struct ContentView: View {
                     showCamera = true
                 }
                 .sheet(isPresented: $showCamera) {
-                    CameraView()
+                    CameraViewController()
                 }
 
                 Button("Upload Video") {
